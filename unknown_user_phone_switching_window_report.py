@@ -172,7 +172,7 @@ while True:
                     for user in unknown_users:
                         report_content += f"\n- Timestamp: {user['timestamp']}"
 
-                report_filename = "automated_report.txt"
+                report_filename = "report.txt"
                 with open(report_filename, "w") as report_file:
                     report_file.write(report_content)
 
@@ -201,7 +201,7 @@ while True:
             for user in unknown_users:
                 report_content += f"\n- Timestamp: {user['timestamp']}"
 
-        report_filename = "automated_report.txt"
+        report_filename = "report.txt"
         with open(report_filename, "w") as report_file:
             report_file.write(report_content)
 
